@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "core": "packages/core",
+    "dep-a": "packages/dep-a",
+    "dep-b": "packages/dep-b",
+    "main": "packages/main"
+  }
 }

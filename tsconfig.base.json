@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@comp/core": ["packages/core/src/index.ts"],
+      "@comp/dep-a": ["packages/dep-a/src/index.ts"],
+      "@comp/dep-b": ["packages/dep-b/src/index.ts"],
+      "@comp/main": ["packages/main/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
